@@ -72,7 +72,7 @@ In order,the top 5 were;
 - Mount Ulla,North Carolina
 - West Phalia,Michigan
 - Florence,South Carolina
-#Put first visual here
+# Put first visual here
 
 
 
