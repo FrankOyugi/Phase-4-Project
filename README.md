@@ -63,6 +63,17 @@ The next step was to rename the column 'Region Name' to 'Zipcode'.
 The final step was to generate two new columns; one for calculating the return on investment (ROI) and another for determining the coefficient of variation. The coefficient of variation measures the extent of data point dispersion around the mean and indicates the ratio of standard deviation to the mean. This enables investors to evaluate the level of risk involved relative to the ROI.
 
 ## Exploratory Data Analysis
+Here we will visually analyze our data. This will help us gain an even deeper understanding of our data before modelling.
+
+The first visual  is a bar plot reflecting the 5 locations with the highest median house sales values in April 2018.
+In order,the top 5 were;
+- Wichita,Kansas
+- Deer Trail,Colorado
+- Mount Ulla,North Carolina
+- West Phalia,Michigan
+- Florence,South Carolina
+#Put first visual here
+
 
 
 
