@@ -75,6 +75,19 @@ In order,the top 5 were;
 # Put first visual here
 
 
+Before proceeding,a melted copy of the dataframe is created to transform the dataframe into a more manageable format where all datetime columns are consolidated into a single column and their corresponding values in another. This process, known as “melting” the dataframe, enhances the ease of data manipulation and interpretation.
+
+The new dataset has 3626260 rows and 11 columns.The data is from 4th April 1996 to 4th April 2018.The house with the lowest price has a price of 11300 dollars and the one with the highest price has a price of 8558700 dollars. The highest ROI on a house is 11.2% and the lowest ROI on a house is -53.3%.
+
+The second visual is a line plot showing the overall trend of median house sales values.
+
+
+# Put first visual here
+
+As we can see the trend is an increasing linear trend, where we can see the median housing sales value increases every year.
+
+
+
 
 
 
