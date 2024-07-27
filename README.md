@@ -27,6 +27,43 @@ Housing You Too Ltd, a consultancy and real estate firm, has been approached by 
 
 - Integrate real-time data sources and economic indicators into the analysis to account for current market conditions. Use adaptive models that can update predictions based on the latest data.
 
+## Data Understanding
+We will use a dataset containing information about the median house prices of different zipcodes in the United States from 1996 to 2018,contained in a csv file.
+The columns in the dataset are:
+- RegionID: Unique index, 58196 through 753844
+
+- RegionName: Unique Zip Code, 1001 through 99901
+
+- City: City in which the zip code is located
+
+- State: State in which the zip code is located
+
+- Metro: Metropolitan Area in which the zip code is located
+
+- CountyName: County in which the zip code is located
+
+- SizeRank: Numerical rank of size of zip code, ranked 1 through 14723
+
+- 1996-04 through 2018-04: refers to the median housing sales values for April 1996 through April 2018, that is 265 data points of monthly data for each zip code
+
+
+The datatypes involved are:
+- float values
+- integers
+- objects
+
+## Data Preparation and Analysis
+The data was analysed and the first step was to check for missing/null and duplicate values.
+There were no duplicates in the dataset.However,there were some missing values in the 'date' and 'metro' columns.
+The missing values in the metro column were replaced with the string 'missing'.
+Columns with missing date values were dropped.
+
+The next step was to rename the column 'Region Name' to 'Zipcode'.
+
+The final step was to generate two new columns; one for calculating the return on investment (ROI) and another for determining the coefficient of variation. The coefficient of variation measures the extent of data point dispersion around the mean and indicates the ratio of standard deviation to the mean. This enables investors to evaluate the level of risk involved relative to the ROI.
+
+## Exploratory Data Analysis
+
 
 
 
