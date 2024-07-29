@@ -72,7 +72,8 @@ In order,the top 5 were;
 - Mount Ulla,North Carolina
 - West Phalia,Michigan
 - Florence,South Carolina
-# Put first visual here
+
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%201.PNG?raw=true'>
 
 
 Before proceeding,a melted copy of the dataframe is created to transform the dataframe into a more manageable format where all datetime columns are consolidated into a single column and their corresponding values in another. This process, known as “melting” the dataframe, enhances the ease of data manipulation and interpretation.
@@ -82,13 +83,13 @@ The new dataset has 3626260 rows and 11 columns.The data is from 4th April 1996 
 The second visual is a line plot showing the overall trend of median house sales values.
 
 
-# Put second visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%202.PNG?raw=true'>
 
 As we can see the trend is an increasing linear trend, where we can see the median housing sales value increases every year.
 
 The third visual is a bar plot showing the 10 metros in California with the highest median house sales values.It shows us which Metro areas have the highest potential in terms of amount of investment.
 
-# Put third visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%203.PNG?raw=true'>
 
 After removing columns we do not need and  changing the date format to reflect the year only to further reduce our computational cost.,modelling can begin.
 
@@ -98,23 +99,23 @@ We will use of one this columns to guideus on making our model.
 
 So we decompose it,make it stationary,then plot the autocorrelation and partial autocorrelation plots.
 
-# Put fourth visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%204.PNG?raw=true'>
 
-# Put fifth visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%205.PNG?raw=true'>
 
-# Put sixth visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%206.PNG?raw=true'>
 
-# Put seventh visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%207.PNG?raw=true'>
 
 we can now build the 4 ARIMA and  3 SARIMA models and evaluate the mean squared error to determine the bset model.The ARIMA model with order(1,0,1) is the best model.
 
-# Put eighth visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%208.PNG?raw=true'>
 
 Lastly,we fit our time series  on this model,perform forecasting and write a function to do the same to all columns in the dataframe containing California zipcodes,and return the 5 zipcodes with the highest forecasted ROIs and the 5 zipcodes with the lowest forecasted ROIs.
 
 ## Conclusion
 
-# Put ninth visual here
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%209.PNG?raw=true'>
 
 ## Recommendation
 - Invest in these 5 zipcodes:93241,93505,93588,95341 and 95485.
