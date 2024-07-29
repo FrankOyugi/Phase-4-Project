@@ -3,7 +3,7 @@
 <img src='https://github.com/FrankOyugi/Phase-4-Project/blob/main/Images/Oahu.jpg?raw=true'>
 
 ## Overview
-The real estate market in the United States offers a wide range of housing options but there’s little knowledge on how to value them to guide buyers and sellers.It is therefore a huge advantage to know which properties will provide a substantial Return On Investment(ROI) and which properties will most likely bring losses before making a decision on the property to buy.By using technical machine learning techniques,time seriesmodels can be built and analysed using historical information and thereafter,forecasting can be possible.
+The real estate market in the United States offers a wide range of housing options but there’s little knowledge on how to value them to guide buyers and sellers.It is therefore a huge advantage to know which properties will provide a substantial Return On Investment(ROI) and which properties will most likely bring losses before making a decision on the property to buy.By using technical machine learning techniques,time series models can be built and analysed using historical information and thereafter,forecasting can be possible.
 
 ## Problem Statement
 Housing You Too Ltd, a consulting and real estate firm, has been approached by a client eager to invest in properties with the goal of achieving the highest possible Return on Investment (ROI). The client is looking for our expert guidance to identify the top 5 zip codes that promise the best ROI. Recognizing the complexity and layered nature of this question, we are committed to providing a thorough and data-driven analysis. To achieve this, we will utilize the extensive Zillow dataset, which contains historical real estate data. By analyzing trends, property values, and other key metrics, we aim to deliver the most accurate and insightful recommendations to guide our client's investment decisions for maximum profitability.
@@ -82,9 +82,46 @@ The new dataset has 3626260 rows and 11 columns.The data is from 4th April 1996 
 The second visual is a line plot showing the overall trend of median house sales values.
 
 
-# Put first visual here
+# Put second visual here
 
 As we can see the trend is an increasing linear trend, where we can see the median housing sales value increases every year.
+
+The third visual is a bar plot showing the 10 metros in California with the highest median house sales values.It shows us which Metro areas have the highest potential in terms of amount of investment.
+
+# Put third visual here
+
+After removing columns we do not need and  changing the date format to reflect the year only to further reduce our computational cost.,modelling can begin.
+
+## Modelling
+Our reference here is a dataframe containing a list of all the zipcodes in California,which we create from the mlted df.Each column represents a different zipcode in california(they are 1224 in total).
+We will use of one this columns to guideus on making our model.
+
+So we decompose it,make it stationary,then plot the autocorrelation and partial autocorrelation plots.
+
+# Put fourth visual here
+
+# Put fifth visual here
+
+# Put sixth visual here
+
+# Put seventh visual here
+
+we can now build the 4 ARIMA and  3 SARIMA models and evaluate the mean squared error to determine the bset model.The ARIMA model with order(1,0,1) is the best model.
+
+# Put eighth visual here
+
+Lastly,we fit our time series  on this model,perform forecasting and write a function to do the same to all columns in the dataframe containing California zipcodes,and return the 5 zipcodes with the highest forecasted ROIs and the 5 zipcodes with the lowest forecasted ROIs.
+
+## Conclusion
+
+# Put ninth visual here
+
+## Recommendation
+- Invest in these 5 zipcodes:93241,93505,93588,95341 and 95485.
+- Do not invest in these 5 zipcodes:91008,95436,91916,91101 and 91204.
+- Increased use of digital marketting strategy to promote sales in future. The sales team should also consider discounts in future so as to entice customers thereby increasing sales.
+- Since there is probability of decline in sales in the future, the company should avoid overstocking.
+
 
 
 
