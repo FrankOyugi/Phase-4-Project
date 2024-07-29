@@ -66,14 +66,8 @@ The final step was to generate two new columns; one for calculating the return o
 Here we will visually analyze our data. This will help us gain an even deeper understanding of our data before modelling.
 
 The first visual  is a bar plot reflecting the 5 locations with the highest median house sales values in April 2018.
-In order,the top 5 were;
-- Wichita,Kansas
-- Deer Trail,Colorado
-- Mount Ulla,North Carolina
-- West Phalia,Michigan
-- Florence,South Carolina
 
-<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/modelling-edits/Images/projvis%201.PNG?raw=true'>
+<img src='https://github.com/FrankOyugi/Phase-4-Project/blob/main/Images/projvis%2010.PNG?raw=true'>
 
 
 Before proceeding,a melted copy of the dataframe is created to transform the dataframe into a more manageable format where all datetime columns are consolidated into a single column and their corresponding values in another. This process, known as “melting” the dataframe, enhances the ease of data manipulation and interpretation.
